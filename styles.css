@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffbe6;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#count {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+#current-cps {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  background-color: #ffcc66;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ffaa00;
+}
+
+#cookie-increment-button {
+  font-size: 1.2rem;
+  background-color: #ff9966;
+}
+
+#cookie-increment-button:hover {
+  background-color: #ff704d;
+}
+
+#reset-button {
+  background-color: #eee;
+  color: #333;
+}
+
+.upgrade {
+  background-color: #f9f2d4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 6px;
+}
