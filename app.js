@@ -115,19 +115,16 @@ function updateCPSDisplay() {
 
 updateCPSDisplay();
 
-//The logic for the upgrade button event handler to only deal with the vaules of the specific upgrade it was create for is the same logic as the event handler for the creation of the large image element in the week 2 submission.
-// Here is a great place to include some logic that checks a CONDITIONAL to see if you have enough cookies in cookieCount to be able to afford the price of the upgrade. If you cant afford and upgrade, how can you give this feedback to your user?
-
 // //This one is working but I want to try other way///////////////////////////////////////////
 // async function getShopUpgrades() {
 //   const upgrades = await loadUpgrades(); // получили апгрейды
 
-//   // Добавляем апгрейды в массив
+//
 //   for (let upgrade of upgrades) {
 //     shopUpgradesArray.push(upgrade);
 //   }
 
-//   // Выводим каждый апгрейд в контейнер
+//
 //   for (let upgrade of shopUpgradesArray) {
 //     const div = document.createElement("div");
 //     div.innerHTML = `
